@@ -5,3 +5,6 @@ from django.shortcuts import render, HttpResponse
 def index(request) :
     return HttpResponse('Hello World!')
 
+def secondView(request):
+    return HttpResponse('My second View!')
+
